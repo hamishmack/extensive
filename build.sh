@@ -1,7 +1,7 @@
 #!/bin/bash
 #  Simple script to make some noise
 
-for i in {1..10}
+for i in {1..120}
 do 
     echo $i;
     sleep 1;
