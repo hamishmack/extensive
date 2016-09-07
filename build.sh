@@ -1,10 +1,10 @@
 #!/bin/bash
 #  Simple script to make some noise
 
-for i in {1..120}
+for i in {1..10000}
 do 
-    echo $i;
-    sleep 1;
+    echo $i The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.;
+    sleep 0.01;
 done;
 
 cp extensive.cabal /output/
