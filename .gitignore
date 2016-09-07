@@ -5,3 +5,6 @@
 *.log
 *.pdf
 .stack-work
+/input/
+/output/
+/publish/
