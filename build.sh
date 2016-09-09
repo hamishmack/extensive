@@ -1,18 +1,18 @@
 #!/bin/bash
 #  Simple script to make some noise
 
-for i in {1..1000}
+for i in {1..10000}
 do 
     echo $i The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.;
     sleep 0.01;
 done;
 
-for i in {1..20000}
+for i in {1..200000}
 do 
     echo -n $i The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.;
 done;
 
-for i in {1..1000}
+for i in {1..10000}
 do 
     echo $i The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.;
     sleep 0.01;
