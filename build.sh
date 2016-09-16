@@ -21,3 +21,7 @@ done;
 cp extensive.cabal /output/
 cp *.hs /output/
 cp *.sh /output/
+
+mkdir -p /output/subdir1/subdir2
+cp *.hs /output/subdir1
+cp *.sh /output/subdir1/subdir2
