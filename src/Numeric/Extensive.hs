@@ -5,6 +5,7 @@ module Numeric.Extensive
     ) 
     where
 
+-- what does this do?
 
 import Numeric.Extensive.Core
 import Numeric.Extensive.Print
