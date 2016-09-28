@@ -4,3 +4,4 @@ packages:
 - '.'
 extra-deps: []
 resolver: lts-5.12
+# why not use ghc 8?
