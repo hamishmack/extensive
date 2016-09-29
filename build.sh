@@ -2,18 +2,18 @@
 #  Simple script to make some noise
 # Test push again and again and once more
 
-for i in {1..100}
+for i in {1..5000}
 do 
     echo $i The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.;
     sleep 0.1;
 done;
 
-for i in {1..2000}
+for i in {1..200}
 do 
     echo -n $i The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.;
 done;
 
-for i in {1..100}
+for i in {1..5000}
 do 
     echo $i The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.;
     sleep 0.1;
