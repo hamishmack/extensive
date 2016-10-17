@@ -1,6 +1,6 @@
 #!/bin/bash
 #  Simple script to make some noise
-# Test push again and again and once more
+# Testing webhooks again
 
 for i in {1..5000}
 do 
