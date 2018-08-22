@@ -1,2 +1,3 @@
 docker: haskell:7.10.3
 invalid: yaml test
+allows: test
