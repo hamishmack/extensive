@@ -1,3 +1,2 @@
 docker: haskell:7.10.3
-requires:
- - something
+cpus: 100
