@@ -1,2 +1,2 @@
 docker: haskell:7.10.3
-cpus: testerror
+build: ls -l; echo Hello
