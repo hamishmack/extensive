@@ -5,7 +5,7 @@
 for i in {1..50}
 do 
     echo $i The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.;
-    sleep 0.01;
+    sleep 1;
 done;
 
 for i in {1..20}
@@ -16,7 +16,7 @@ done;
 for i in {1..50}
 do 
     echo $i The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.;
-    sleep 0.01;
+    sleep 1;
 done;
 
 cp extensive.cabal /output/
