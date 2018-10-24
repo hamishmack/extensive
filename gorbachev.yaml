@@ -3,3 +3,8 @@ allows: [ TestJobThatDoesNotExist ]
 env:
   A: S1
   B: S2
+variants:
+ - B: V1
+   C: V1
+ - B: V2
+   C: V2
