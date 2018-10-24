@@ -1,2 +1,5 @@
 docker: haskell:7.10.3
 allows: [ TestJobThatDoesNotExist ]
+env:
+ - A: 1
+   B: 2
