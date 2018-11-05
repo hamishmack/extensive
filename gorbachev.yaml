@@ -1,5 +1,6 @@
 docker: haskell:7.10.3
 allows: [ TestJobThatDoesNotExist ]
+build: echo $C > /output/C.txt
 triggers:
   - test2
 env:
