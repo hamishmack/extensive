@@ -1,5 +1,7 @@
 docker: haskell:7.10.3
-allows: [ TestJobThatDoesNotExist, test2 ]
+allows: [ TestJobThatDoesNotExist ]
+triggers:
+  - test2
 env:
   A: S1
   B: S2
