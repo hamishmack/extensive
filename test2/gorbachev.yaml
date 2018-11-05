@@ -1,3 +1,4 @@
 docker: haskell:7.10.3
-requires: [ "test:1" ]
+requires:
+ - test:2
 build: ls -lR /input/
