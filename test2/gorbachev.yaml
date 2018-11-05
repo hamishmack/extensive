@@ -1,4 +1,4 @@
 docker: haskell:7.10.3
 requires:
-  - test:16
+  - test
 build: echo ok
