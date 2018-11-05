@@ -1,4 +1,4 @@
 docker: haskell:7.10.3
 requires:
   - test
-build: echo ok
+build: ls -lR /input/
