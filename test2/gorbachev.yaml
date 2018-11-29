@@ -2,3 +2,5 @@ docker: haskell:7.10.3
 requires:
  - test
 build: cat /input/test/C.txt; echo "C = $C"; sleep 100000; echo done
+ports:
+ - 4001
