@@ -1,6 +1,6 @@
 docker: haskell:7.10.3
 requires:
  - test
-build: cat /input/test/C.txt; echo "C = $C"; sleep 100000; echo done
+build: cat /input/test/C.txt; echo "C = $C"; printf "        <- counting\r"; for a in {1..1000}; do printf "$a\r"; sleep 1; done; echo; echo done
 ports:
  - 0:4001
