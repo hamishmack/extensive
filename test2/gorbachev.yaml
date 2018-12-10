@@ -1,5 +1,6 @@
 docker: haskell:7.10.3
 requires:
- - test
+ - test:1100106
+ - test:1100107
 ports:
  - 0:4001
