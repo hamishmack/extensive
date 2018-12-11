@@ -4,7 +4,7 @@ ls -l /input/test
 cat /input/test/*/C.txt
 echo "C = $C"
 
-printf "------------------------------\r"
+printf "|------------------------------|\r|"
 for a in {1..30}; do
   printf "#";
   sleep 1;
