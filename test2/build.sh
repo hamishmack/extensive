@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cat /input/test/C.txt
+ls -l /input/test
+cat /input/test/*/C.txt
 echo "C = $C"
 
 printf "------------------------------\r"
