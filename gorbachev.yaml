@@ -1,7 +1,7 @@
 docker: haskell:7.10.3
 allows: [ TestJobThatDoesNotExist ]
 build: echo $C > /output/C.txt
-cpus: 8
+cpus: 1
 triggers:
   - test2
 env:
@@ -10,5 +10,5 @@ env:
 variants:
  - B: V1
    C: V1
- - B: V2
-   C: V2
+# - B: V2
+#   C: V2
