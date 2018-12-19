@@ -1,4 +1,4 @@
-docker: haskell:7.10.3
+docker: hello-world
 allows: [ TestJobThatDoesNotExist ]
 build: echo $C > /output/C.txt
 cpus: 1
