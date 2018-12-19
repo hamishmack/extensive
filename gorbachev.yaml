@@ -1,4 +1,4 @@
-docker: hello-world
+docker: nixos/nix
 allows: [ TestJobThatDoesNotExist ]
 build: echo $C > /output/C.txt
 cpus: 1
