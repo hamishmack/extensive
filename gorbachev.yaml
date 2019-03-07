@@ -1,4 +1,3 @@
-docker: nixos/nix
 allows: [ TestJobThatDoesNotExist ]
 cpus: 1
 triggers:
