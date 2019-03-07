@@ -1,6 +1,5 @@
 docker: nixos/nix
 allows: [ TestJobThatDoesNotExist ]
-build: echo $C > /output/C.txt
 cpus: 1
 triggers:
   - test2
